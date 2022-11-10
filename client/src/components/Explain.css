@@ -1,0 +1,29 @@
+.explaincontainer {
+    width : 30%;
+    padding: 5px;
+    background: palevioletred;
+
+}
+.explanationsection{
+    margin-bottom: 15px;
+
+}
+.position{
+ font-size: 24px;
+}
+.name{
+    font-size: 32px;
+
+}
+.meaning_up{
+    font-size: 20px;
+
+}
+.desc{
+    font-size: 20px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+
+  
