@@ -1,15 +1,15 @@
 import React from 'react'
 import "./Explain.css"
 const positionMap = {
-    first: "Situation",
-    second: "Challenge",
-    third: "Beliefs",
-    fourth: "Recent Past",
-    fifth: "Possibilities",
+    first: "Your Situation Now",
+    second: "The Challenge You Are Facing",
+    third: "Your Beliefs",
+    fourth: "Distant Past, Root of Problem",
+    fifth: "Recent Past",
     sixth: "Near Future",
     seventh: "Self-Perception",
     eighth: "How Others Perceive You",
-    ninth: "Action Advice",
+    ninth: "Action Advice, Hidden Information",
     tenth: "Outcome"
 }
 const Explain = (props) => {
