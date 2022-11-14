@@ -49,13 +49,11 @@ return list.find(o => o.lastClicked);
       }
       return { ...obj, lastClicked: false };
     }));
-    // setList(current => [...current, newToDo]);
   };
 
   return (
 
     <div className="App">
-      {/* {JSON.stringify(cardExplanation())} */}
       <Reading cardList={list} nextCard={nextCard}/>
       <Explain explanation={cardExplanation()}/>
     </div>

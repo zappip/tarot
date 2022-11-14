@@ -17,17 +17,15 @@ const Card = (props) => {
     return (
         <div onClick={e => props.nextCard()} className={classes}>
             <div className="flip-card">
-                <div className={props.flipped ? "flip-card-inner flipped f"+props.position : "flip-card-inner f"+props.position}>
+                <div className={props.flipped ? "flip-card-inner flipped f" + props.position : "flip-card-inner f" + props.position}>
                     <div className="flip-card-front">
-                        
-                        <img className = "cardImage" src="images/unflipped.webp"/>
+                        <img className="cardImage" src="images/unflipped.webp" />
                     </div>
                     <div className="flip-card-back">
-                    <img className = "cardImage" src={image}/>
+                        <img className="cardImage" src={image} />
                     </div>
                 </div>
             </div>
-            {/* <img className = "cardImage" src={props.flipped ? `images/${props.name_short}.webp` : "images/unflipped.webp"}/> */}
         </div>
     )
 }
